@@ -3,9 +3,15 @@
 {% block title %} Madlibs {% endblock %}
 
 {% block body %} 
+<div id="background">
+<p>
+{{ person }} woke up in a {% for adjective in adjective %} {{adjective}} {% endfor %} {{ place }} and grabbed their trusty {{ color }} {{ accessory }}. <br><br>
+Today is {{ day }}!
+</p>
+</div>
 
-{{ person }} was a {{ color }} 
-{% for adjective in adjective %} {{adjective}} {% endfor %} 
-{{ noun }}.
+
+
+
 
 {% endblock %}

@@ -7,3 +7,13 @@ body {
 .question {
     font-weight: bold;
 }
+
+#background {
+    background-image: url("http://www.clipartbest.com/cliparts/LTK/reb/LTKrebjoc.png");
+}
+p {
+    text-align: center;
+    line-height: 1em;
+    margin: 10em auto;
+    width: 20em;
+}
