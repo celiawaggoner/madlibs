@@ -1,0 +1,9 @@
+body {
+    font-size: 2em;
+    line-height: 2em;
+    font-family: Trebuchet;
+}
+
+.question {
+    font-weight: bold;
+}

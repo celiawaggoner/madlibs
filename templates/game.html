@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}Game{% endblock %}
+
+{% block body %} 
+<h1>Madlib Game</h1>
+
+<form action="/madlib">
+
+    <label><span class="question">Give us the name of a person!</span>
+        <input type="text" name="person">
+    </label>
+
+    </br>
+
+    <label><span class="question">Pick a color!</span>
+        <input type="radio" name="color" value="black">Black
+        <input type="radio" name="color" value="purple">Purple
+        <input type="radio" name="color" value="neongreen">Neon Green
+        <input type="radio" name="color" value="leopard-print">Leopard Print
+    </label>
+
+    </br>
+
+    <label><span class="question">Pick a noun!</span>
+        <select name="noun">
+            <option value="fishnets">Fishnets</option>
+            <option value="fake-louis-vuitton-purse">Fake Louis Vuitton Purse</option>
+            <option value="concert">Concert</option>
+            <option value="broken-umbrella">Broken Umbrella</option>
+            <option value="bagel">Bagel</option>
+        </select>
+    </label>
+
+    </br>
+
+    <label><span class="question">Pick an adjective!</span>
+        <input type="checkbox" name="adjective" value="dirty">Dirty
+        <input type="checkbox" name="adjective" value="promiscuous">Promiscuous
+        <input type="checkbox" name="adjective" value="ketchup-stained">Ketchup-stained
+        <input type="checkbox" name="adjective" value="glittery">Glittery
+    </label>
+
+    </br>
+
+
+    <label><input class="buttons" type="submit"></label>
+</form>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %} 
+
+{% block title %} Madlibs {% endblock %}
+
+{% block body %} 
+
+{{ person }} was a {{ color }} 
+{% for adjective in adjective %} {{adjective}} {% endfor %} 
+{{ noun }}.
+
+{% endblock %}
